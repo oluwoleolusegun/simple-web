@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Feedback </title>
+<meta charset="utf-8">
+<meta name= "description" content="School Website" />
+<meta name="keywords" content="best school in Makkah, top 10 best school in Makkah,international school in Makkah, american school,international school,best school in saudi,best international schools in Makkah,kindergarten in Makkah,best kindergarten schools in Makkah"/>
+<meta name= "author" content="Wael Ahmad Alghamdi" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/styles.css"> </link>
+<script type="text/javascript" src="../scripts/script.js"></script>
+</head>
+<body>
+    
+       <header>
+
+        <h1> TWO & TWO International School </h1>
+        <h2> Developed by Oluwole Olusegun</h2>
+        <p> AdvancED </p>
+
+       </header>        
+      
+
+            <ul <div class="main_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="SchoolDay.html">School Day</a></li>
+                <li><a class="active" href="Feedback.html">Feedback</a></li>
+              </div> 
+            </ul>
+         
+
+
+            <h1> Feedback Form </h1>
+            <br />
+            <hr/>
+           <br />
+
+
+<div> 
+              <form  class="feedback_form" action="process" method="post" onsubmit="return validatedFeedbackAll();">
+                 <div id="urname_error">Please fill up with your Name</div>
+                 <div id="nodigit_error">Please remove the written digit</div>
+                 <div id="email_error">Please fill up with your Email</div>
+                 <div id="emailreg_error">Please fill up with valid Email</div>
+                 <div id="topic_error">Please fill up with your Topic</div>
+                 <div id="subject_error">Please fill up with your Subject</div>
+                 <div id="feedback_error">Please fill up with your Feedback</div>
+                 
+
+
+<br />
+                <div> <label> <div> Name:  </div>  <input type="text" name="urname" placeholder="Enter your name..." id="urname" onkeyup="handleOnKeyup()" onfocus="handleOnFocus(this)" onblur="handleOnBlur(this)"/> </label> </div>
+
+<br />
+                <div> <label> <div> Email:  </div>  <input type="text" name="email" placeholder="Enter your email address..." id="email" onfocus="handleOnFocus(this)"onblur="handleOnBlur(this)" /> </label> </div>
+ 
+<br />
+                <div> <label> <div> Topic:  </div>  
+                              <select name="topic" id="topic" onfocus="handleOnFocus(this)"onblur="handleOnBlur(this)">
+                                <option>Please select a topic...</option>
+                                <option>Suggestion</option>
+                                <option>Complaint</option>
+                                <option>Idea</option>
+                                <option>Help</option>
+                              </select>
+                      </label>
+                </div> 
+     
+<br />       
+<div> <label> <div> Subject:  </div>  <input type="text" name="subject" placeholder="Enter your subject..." id="subject" onfocus="handleOnFocus(this)"onblur="handleOnBlur(this)"/> </label> </div>        
+<p>Feedback: </p>
+
+<textarea name="feedback" rows="15" cols="100" id="feedback" onfocus="handleOnFocus(this)"onblur="handleOnBlur(this)">
+</textarea>
+                
+<br />
+             <button type="submit">Send</button>
+            
+</form>
+</div>  
+   
+<script type="text/javascript" src="../scripts/script.js"></script>
+
+
+<footer>
+        <div class="footer-content">
+            <p>TWO & TWO INTERNATIONAL SCHOOL </p>
+           <h2><a href="https://g.page/jischool1?share">location</a> </h2>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright 2022 © MIS </p>
+
+        </div>
+    </footer>
+
+</body>
+</html>

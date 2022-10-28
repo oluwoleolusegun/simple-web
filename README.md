@@ -1,2 +1,2 @@
-# simple-web
-sample-website
+# School-website
+School website, for testing (Css and JavaScript)
